@@ -1,0 +1,53 @@
+{
+  "pekerjaan": [
+    "wiraswasta",
+    "karyawan swasta",
+    "pns",
+    "rental",
+    "raib",
+    "tni/polri",
+    "tidak ada pekerjaan",
+    "taxi online",
+    "dokter/bidan"
+  ],
+  "sumberDana": [
+    "usaha lain / umkm",
+    "lain-lain",
+    "pns - gaji/thr",
+    "rental",
+    "sawit",
+    "raib",
+    "kontraktor",
+    "pertanian",
+    "minyak",
+    "taxi online",
+    "tidak ada pekerjaan",
+    "karet",
+    "usaha lain/umkm",
+    "batubara / timah",
+    "owner pabrik",
+    "pns-gaji/thr",
+    "hasil laut"
+  ],
+  "keberadaanDebitur": [
+    "masih di alamat domisili",
+    "pindah alamat baru tidak diketahui",
+    "pindah alamat baru diketahui"
+  ],
+  "keberadaanUnit": [
+    "unit ada di debitur",
+    "tidak diketahui",
+    "unit di p3"
+  ],
+  "kategoriKasus": [
+    "bad character",
+    "cash flow",
+    "unit di pihak ke-3",
+    "debitur dan unit raib",
+    "unit di gadai",
+    "unit di pihak ke-3 tomas",
+    "unit dijual putus",
+    "unit terkait kasus hukum (bb)",
+    "proses claim asuransi"
+  ]
+}

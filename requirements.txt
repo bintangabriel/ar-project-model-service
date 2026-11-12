@@ -1,0 +1,7 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+scikit-learn==1.9.1    # must match the version that saved model.joblib (retrain with `python train.py` if you change it)
+pandas>=2.2
+numpy
+joblib
+openpyxl

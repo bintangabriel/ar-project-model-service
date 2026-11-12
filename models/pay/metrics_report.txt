@@ -1,0 +1,18 @@
+MODEL SCORE REPORT  (5-fold validation, all rows of a customer kept in the same fold)
+Data: 6429 assignments, 2559 customers, paid rate 21.0%
+
+1) Does it tell payers from non-payers?
+   AUC            : 0.741   (0.5 = coin flip, 1.0 = perfect)
+   Brier score    : 0.147   (lower is better; always guessing the average = 0.166)
+
+2) Are the percentages trustworthy?  (cases sorted by predicted chance, cut into 5 equal groups)
+         avg_predicted  actual_paid     n
+group 1          0.033        0.031  1286
+group 2          0.120        0.108  1286
+group 3          0.200        0.194  1285
+group 4          0.303        0.309  1288
+group 5          0.454        0.407  1284
+
+3) Does it pick a good REMO?  (only customers who had both a paying and a non-paying REMO)
+   Paying REMO ranked above a non-paying one : 60.7%   (50% = chance, 921 pairs)
+   Top-scored REMO actually got paid         : 42.5%   vs random pick 37.4%   (705 customers)
